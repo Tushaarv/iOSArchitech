@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol GreetingViewPresenter {
+protocol GreetingPresenterProtocol {
     init(view: GreetingView, person: Person)
     func showGreeting()
 }

@@ -9,8 +9,10 @@
 import Foundation
 
 protocol GreetingViewModelProtocol: class {
+    init(person: Person)
+
     var greeting: String? { get }
     var greetingDidChange: ((GreetingViewModelProtocol) -> ())? { get set } // function to call when greeting did change
-    init(person: Person)
+    
     func showGreeting()
 }

@@ -15,7 +15,7 @@
 		78673DEF206107F100F5CF4F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DEE206107F100F5CF4F /* Person.swift */; };
 		78673DF120610D4100F5CF4F /* MVPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DF020610D4100F5CF4F /* MVPViewController.swift */; };
 		78673DF52061104F00F5CF4F /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DF42061104F00F5CF4F /* GreetingView.swift */; };
-		78673DF72061109900F5CF4F /* GreetingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DF62061109900F5CF4F /* GreetingViewPresenter.swift */; };
+		78673DF72061109900F5CF4F /* GreetingViewPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DF62061109900F5CF4F /* GreetingViewPresenterProtocol.swift */; };
 		78673DF920611DB300F5CF4F /* GreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DF820611DB300F5CF4F /* GreetingPresenter.swift */; };
 		78673DFC2061263F00F5CF4F /* GreetingViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DFB2061263F00F5CF4F /* GreetingViewModelProtocol.swift */; };
 		78673DFE2061269200F5CF4F /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78673DFD2061269200F5CF4F /* GreetingViewModel.swift */; };
@@ -33,7 +33,7 @@
 		78673DEE206107F100F5CF4F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		78673DF020610D4100F5CF4F /* MVPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPViewController.swift; sourceTree = "<group>"; };
 		78673DF42061104F00F5CF4F /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
-		78673DF62061109900F5CF4F /* GreetingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewPresenter.swift; sourceTree = "<group>"; };
+		78673DF62061109900F5CF4F /* GreetingViewPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewPresenterProtocol.swift; sourceTree = "<group>"; };
 		78673DF820611DB300F5CF4F /* GreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPresenter.swift; sourceTree = "<group>"; };
 		78673DFB2061263F00F5CF4F /* GreetingViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModelProtocol.swift; sourceTree = "<group>"; };
 		78673DFD2061269200F5CF4F /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			children = (
 				78673DF020610D4100F5CF4F /* MVPViewController.swift */,
 				78673DF42061104F00F5CF4F /* GreetingView.swift */,
-				78673DF62061109900F5CF4F /* GreetingViewPresenter.swift */,
+				78673DF62061109900F5CF4F /* GreetingViewPresenterProtocol.swift */,
 				78673DF820611DB300F5CF4F /* GreetingPresenter.swift */,
 			);
 			path = MVP;
@@ -185,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78673DF120610D4100F5CF4F /* MVPViewController.swift in Sources */,
-				78673DF72061109900F5CF4F /* GreetingViewPresenter.swift in Sources */,
+				78673DF72061109900F5CF4F /* GreetingViewPresenterProtocol.swift in Sources */,
 				78673DEF206107F100F5CF4F /* Person.swift in Sources */,
 				78673DF920611DB300F5CF4F /* GreetingPresenter.swift in Sources */,
 				78673DDF206103BE00F5CF4F /* MVCViewController.swift in Sources */,

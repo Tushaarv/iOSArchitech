@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GreetingPresenter : GreetingViewPresenter {
+class GreetingPresenter : GreetingPresenterProtocol {
     
     unowned let view:GreetingView
     let person:Person

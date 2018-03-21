@@ -11,6 +11,10 @@ import Foundation
 class GreetingViewModel : GreetingViewModelProtocol {
 
     let person: Person
+    
+    required init(person: Person) {
+        self.person = person
+    }
 
     var greeting: String? {
         didSet {
@@ -19,10 +23,6 @@ class GreetingViewModel : GreetingViewModelProtocol {
     }
     
     var greetingDidChange: ((GreetingViewModelProtocol) -> ())?
-    
-    required init(person: Person) {
-        self.person = person
-    }
     
     @objc func showGreeting() {
         self.greeting =  "Hello" + " " + self.person.firstName + " " + self.person.lastName
